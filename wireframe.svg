@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="monospace" font-size="13">
+  <!-- Background -->
+  <rect width="800" height="560" fill="#f4f4f8" rx="8"/>
+  <text x="20" y="28" font-size="16" font-weight="bold" fill="#333">Cosmic Memory — Wireframe</text>
+
+  <!-- NAVBAR -->
+  <rect x="20" y="45" width="760" height="44" rx="4" fill="#ddd" stroke="#999" stroke-width="1.5"/>
+  <text x="36" y="72" fill="#555" font-weight="bold">CosmicMemory</text>
+  <text x="490" y="72" fill="#777">↺ Play/Reset</text>
+  <text x="580" y="72" fill="#777">? How to Play</text>
+  <text x="670" y="72" fill="#777">⚙ Settings</text>
+
+  <!-- HERO -->
+  <text x="400" y="118" text-anchor="middle" font-size="22" font-weight="bold" fill="#444">COSMIC MEMORY</text>
+  <text x="400" y="138" text-anchor="middle" font-size="11" fill="#888">FIND EVERY PAIR HIDDEN AMONG THE STARS</text>
+
+  <!-- STATS BAR -->
+  <rect x="200" y="150" width="110" height="28" rx="14" fill="#e2e2f0" stroke="#bbb" stroke-width="1"/>
+  <text x="255" y="169" text-anchor="middle" fill="#555" font-size="11">Moves: 0</text>
+  <rect x="325" y="150" width="110" height="28" rx="14" fill="#e2e2f0" stroke="#bbb" stroke-width="1"/>
+  <text x="380" y="169" text-anchor="middle" fill="#555" font-size="11">Time: 00:00</text>
+  <rect x="450" y="150" width="130" height="28" rx="14" fill="#e2e2f0" stroke="#bbb" stroke-width="1"/>
+  <text x="515" y="169" text-anchor="middle" fill="#555" font-size="11">Matches: 0/10</text>
+
+  <!-- PROGRESS BAR -->
+  <rect x="200" y="192" width="400" height="10" rx="5" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <rect x="200" y="192" width="80" height="10" rx="5" fill="#9988dd"/>
+  <text x="400" y="222" text-anchor="middle" font-size="11" fill="#888">Progress — 20%</text>
+
+  <!-- GAME BOARD (4x5 grid example) -->
+  <text x="40" y="248" font-size="11" fill="#888">[ GAME BOARD — cards rendered by JS, grid columns set by difficulty ]</text>
+  <g stroke="#bbb" stroke-width="1.5">
+    <!-- Row 1 -->
+    <rect x="40"  y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="118" y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="196" y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="274" y="255" width="66" height="66" rx="8" fill="#c8c8ee"/>
+    <rect x="352" y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="430" y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="508" y="255" width="66" height="66" rx="8" fill="#c8c8ee"/>
+    <rect x="586" y="255" width="66" height="66" rx="8" fill="#dde"/>
+    <!-- Row 2 -->
+    <rect x="40"  y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="118" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="196" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="274" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="352" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="430" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="508" y="333" width="66" height="66" rx="8" fill="#dde"/>
+    <rect x="586" y="333" width="66" height="66" rx="8" fill="#dde"/>
+  </g>
+  <!-- Matched pair label -->
+  <text x="304" y="295" text-anchor="middle" font-size="18" fill="#9977cc">✦</text>
+  <text x="541" y="295" text-anchor="middle" font-size="18" fill="#9977cc">✦</text>
+  <text x="304" y="310" text-anchor="middle" font-size="9" fill="#9977cc">Matched</text>
+  <text x="541" y="310" text-anchor="middle" font-size="9" fill="#9977cc">Matched</text>
+  <text x="73"  y="295" text-anchor="middle" font-size="20" fill="#aaa">✧</text>
+  <text x="73"  y="375" text-anchor="middle" font-size="20" fill="#aaa">✧</text>
+
+  <!-- CONTROLS -->
+  <rect x="260" y="415" width="120" height="34" rx="17" fill="#9988dd" stroke="none"/>
+  <text x="320" y="436" text-anchor="middle" fill="white" font-size="12">↺ New Game</text>
+  <rect x="400" y="415" width="120" height="34" rx="17" fill="none" stroke="#9988dd" stroke-width="1.5"/>
+  <text x="460" y="436" text-anchor="middle" fill="#9988dd" font-size="12">⚙ Settings</text>
+
+  <!-- INSTRUCTIONS -->
+  <rect x="40" y="462" width="720" height="60" rx="8" fill="none" stroke="#ccc" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="56" y="484" fill="#999" font-size="11">Instructions section: numbered list of rules</text>
+  <text x="56" y="502" fill="#bbb" font-size="10">1. Flip any card  2. Flip a second  3. Match = stay  4. No match = flip back  5. Match all!</text>
+
+  <!-- FOOTER -->
+  <rect x="0" y="530" width="800" height="30" fill="#e8e8f0"/>
+  <text x="400" y="550" text-anchor="middle" fill="#999" font-size="11">
+    Dev Profile · Source Code · GitHub · Nu Validator · WAVE Checker
+  </text>
+</svg>
