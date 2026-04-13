@@ -57,7 +57,7 @@ Reveal all matching pairs of Star Wars symbol cards. The board is shuffled each 
 
 The wireframe below shows the intended layout before coding began:
 
-![Wireframe of Galactic memory game UI](images/wireframe.svg)
+![Wireframe of Galactic memory game UI](images/wireframe.png)
 
 Key areas shown:
 - **Navbar** — brand, Play/Reset, How to Play, Settings, Dev Profile links
