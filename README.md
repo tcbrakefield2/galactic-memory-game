@@ -86,41 +86,6 @@ Key areas shown:
 
 ---
 
-## 💻 Code Explanation
-
-### Deck Builder & Shuffle (`scripts/cards.js`)
-
-```js
-/**
- * Build a shuffled deck for the given difficulty.
- * Selects `pairs` cards at random, duplicates each (to make pairs),
- * then shuffles the whole deck using Fisher-Yates.
- *
- * The data container (CARD_DATA array of objects) drives all rendering —
- * the DOM is built from this data, not hardcoded HTML.
- */
-export function buildDeck(difficulty = 'medium') {
-  const { pairs } = DIFFICULTY[difficulty]; // e.g. 10 for medium
-  const selected = shuffle(CARD_DATA).slice(0, pairs); // random selection
-
-  const deck = [];
-  selected.forEach(card => {
-    // Each card gets two instances with unique instanceIds
-    deck.push({ ...card, instanceId: `${card.id}-a` });
-    deck.push({ ...card, instanceId: `${card.id}-b` });
-  });
-
-  return shuffle(deck); // shuffle the paired deck for randomized layout
-}
-```
-
-**Why this matters:**
-- `CARD_DATA` is the single source of truth — the board DOM is generated from it each game.
-- `shuffle()` uses Fisher-Yates for uniform randomness — every permutation is equally likely.
-- `instanceId` (`"5-a"` vs `"5-b"`) lets the engine distinguish the two copies of the same card while `card.id` lets it detect a match.
-
----
-
 ## ✅ Accessibility Notes
 
 - All interactive elements have `aria-label` attributes.
