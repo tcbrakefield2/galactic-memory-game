@@ -81,6 +81,8 @@ Key areas shown:
 - [WCAG 2.1 AA Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 - [Nu HTML Validator](https://validator.w3.org/nu/)
 - [WAVE Accessibility Checker](https://wave.webaim.org/)
+- [Claude AI](https://claude.ai/new)
+- [Youtube](https://www.youtube.com/watch?v=rcWBLFXH7uA)
 
 ---
 
